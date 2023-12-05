@@ -1,0 +1,33 @@
+.dh-ctn-main {
+    padding-top: 10px;
+    margin-top: 60px;
+}
+.dh-ctn {
+    line-height: 60px;
+    word-spacing: 3px;
+    text-align:center;
+    color:#1E2837;
+
+}
+
+.dh-bgimg {
+    background-position: center;
+    background-size: cover;
+}
+.dh-img1 {
+    background-image: url(https://i.pinimg.com/236x/e7/15/c4/e715c4a6b09bc752c2adb226777cde91.jpg);
+}
+.dh-img2 {
+    background-image: url(https://i.pinimg.com/236x/15/4b/6f/154b6fe896b9ffa171d7abb905b9ede7.jpg);
+}
+.dh-img3 {
+    background-image: url(https://i.pinimg.com/236x/2a/ce/23/2ace232a9645f9268cb12c59a3656261.jpg);
+}
+@media (max-width: 766px) {
+.dhf{
+    font-size: 32px;
+}}
+@media (max-width: 475px) {
+    .dhf{
+        font-size: 28px;
+    }}

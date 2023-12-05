@@ -1,0 +1,125 @@
+.kh-title-ctn {
+    display: flex;
+    width:96%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kh-title {
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+}
+.kh-shop-ctn {
+    display: flex;
+    flex-wrap: wrap;
+    width:96%;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    margin-top: 20px;
+}
+.kh-shop {
+    width:49%;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.kh-layer {
+    position: relative;
+    width:100%;
+    margin-bottom: 22px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.kh-shopimg {
+    width:100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.kh-layer:hover .kh-shop-btn{
+    padding:12px 24px;
+    bottom:20px;
+    opacity: 1;
+}
+.kh-layer:hover .kh-shopimg{
+  transform: scale(1.1);
+}
+.kh-shop-btn {
+    opacity: 0;
+    position: absolute;
+    bottom:-40px;
+    left: 20px;
+    width:fit-content;
+    height: fit-content;
+    background-color: #68E5B2;
+    color: #222B3A;
+    border-radius: 26px;
+    padding:10px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.kh-shop-btn:hover {
+    color: #68E5B2;
+    background-color: #222B3A;
+}
+.kh-shname {
+    color:#68E5B2;
+    font-size: 20px;
+    font-weight: 600;
+}
+.kh-price {
+    display: flex;
+    gap:10px;
+}
+.kh-oldp {
+    text-decoration: line-through;
+}
+
+@media (max-width: 990px) {
+    .kh-layer:hover .kh-shopimg{
+      transform: scale(1.1);
+    }
+    .kh-shop-btn {
+        opacity: 1;
+        position: absolute;
+        bottom:20px;
+        left: 20px;
+        width:fit-content;
+        height: fit-content;
+        background-color: #68E5B2;
+        color: #222B3A;
+        border-radius: 26px;
+        padding:12px 24px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 766px) {
+.kh-price {
+    flex-direction: column;
+    text-align: center;
+    gap:4px;
+}
+.kh-shname {
+text-align: center;
+}
+}
+@media (max-width: 475px) {
+
+    .kh-shop-ctn {
+        display: flex;
+        flex-wrap: wrap;
+        width:96%;
+        justify-content: space-between;
+        align-items: center;
+        margin:auto;
+        margin-top: 20px;
+    }
+    .kh-shop {
+        width:100%;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+    }

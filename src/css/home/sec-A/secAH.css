@@ -1,0 +1,242 @@
+.ah-main {
+    width : 100%;
+    height: 125vh;
+    display: flex;
+    background-image:linear-gradient(#D6E6FD, #d9e6f9);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+}
+.ah-layout {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    
+}
+.ah-layout-flx {
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+    padding-left: 50px;
+}
+.ah-title {
+    font-size: 80px;
+    letter-spacing: 2px;
+    line-height:85px;
+    font-weight: 700;
+}
+.ah-desc {
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.786);
+}
+.ah-exbtn{
+    width:fit-content;
+    height: fit-content;
+    background-color: #222B3A;
+    border: solid 2px #222B3A;
+    color: rgb(243, 242, 242);
+    border-radius: 26px;
+    padding:12px 24px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.ah-exbtn:hover {
+    border: solid 2px #222B3A;
+    background-color: inherit;
+    color : #222B3A;
+}
+
+.ah-img-pnt {
+    position: absolute;
+    top:0px;
+    right:60px;
+    width:220px;
+    height: 260px;
+background-image: linear-gradient(#68E5B2,#cbfce9); 
+   border-radius: 27px;
+}
+.ah-img {
+    position: absolute;
+    width:390px;
+    height: 390px;
+    top: 40px;
+    right: 100px;
+    border-radius: 27px;
+}
+.ah-input {
+    border-radius: 23px;
+    width: 250px;
+    outline-offset: inherit;
+    outline: inherit;
+    border:inherit;
+    padding: 12px 16px;
+    background-color: #f3f3f3;
+}
+.ah-input:focus{
+    border:solid black 1px;
+    padding-left: 25px;
+    outline: inherit;
+}
+.ah-phone, .ah-address {
+    color: rgb(31, 31, 31);
+}
+.ah-address:hover , .ah-phone:hover{
+    color :rgba(31, 31, 31, 0.778);
+
+}
+
+
+@media (max-width: 990px) {
+    .ah-main {
+        height: 200vh;
+    }
+    .ah-layout-flx {
+        padding-left: 0px;
+        width: 85%;
+        text-align: center;
+    }
+    .ah-layout {
+        width: 70%;
+    }
+    .ah-layout-pic {
+        margin-top: 70px;
+    }
+    .ah-tag {
+        margin: 0 auto;
+    }
+    .ah-title {
+        font-size: 60px;
+    }
+    .ah-desc {
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+    .ah-exbtn {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .ah-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ah-img-pnt {
+        top:0px;
+        right:60px;
+        width:260px;
+        height: 260px;
+    }
+    .ah-img {
+        position: absolute;
+        width:80%;
+        height: 390px;
+        top: 40px;
+        right: 100px;
+        border-radius: 27px;
+    }
+    .ah-info {
+        flex-direction: column;
+        gap:26px;
+        bottom:-60px;
+        padding-right: 30px;
+        padding-left: 23px;
+    }
+    .ah-info1 {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ah-info2 {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ah-input{
+        width:75%
+    }
+}
+@media (max-width: 766px) {
+    .ah-layout-flx {
+        width: 90%;
+    }
+    .ah-layout {
+        width: 90%;
+    }
+    .ah-title {
+        font-size: 43px;
+        line-height:50px;
+    }
+    .ah-desc {
+        letter-spacing: 0px;
+        font-size: 16px;
+    }
+    .ah-img-pnt {
+        top:0px;
+        right:10px;
+        width:260px;
+        height: 260px;
+    }
+    .ah-img {
+        position: absolute;
+        width:80%;
+        height: 390px;
+        top: 40px;
+        right: 0px;
+        left:0;
+        margin:auto;
+        border-radius: 27px;
+    }
+    .ah-info {
+        bottom:-120px;
+    }
+    .ah-info1 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+   
+    .ah-input{
+        max-width:60%
+    }
+}
+@media (max-width:475px) {
+    .ah-layout-pic {
+        width:100%
+    }
+    .ah-exbtn {
+        width:100%;
+        padding:9px 24px;
+      }
+      .ah-img-pnt {
+        top:0px;
+        right:10px;
+        width:260px;
+        height: 200px;
+    }
+    .ah-img {
+        position: absolute;
+        width:86%;
+        height: 300px;
+        top: 15px;
+        right: 0px;
+        left:0;
+        margin:auto;
+        border-radius: 27px;
+    }
+    .ah-info {
+        gap:26px;
+        bottom:-120px;
+        width: 90%;
+    }
+    .ah-info2 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ah-input{
+        width:100%;
+        max-width: 100%;
+    }
+    .ah-ebtn{
+        width: 100%;
+    }
+}

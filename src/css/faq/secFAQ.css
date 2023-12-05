@@ -1,0 +1,13 @@
+.accor-bg-ctn {
+    background-color: #ffffff;
+    display: flex;
+
+    flex-direction: column;
+}
+.accor-bg {
+    background-color: #1E2837;
+
+}
+.accor-txt {
+    color:rgb(241, 239, 239);
+}
